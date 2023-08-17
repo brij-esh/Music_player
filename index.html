@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Studio</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5d79a7d030.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navbar_element">
+                <a href="#" id="logo">
+                    <div class="logo_container">
+                        <img src="/assets/logo.png" alt="logo">
+                    </div>
+                    <p>Ninja <span>Studio</span></p>
+                </a>
+                <a href="#" class="link">Favorites</a>
+                <div class="space"></div>
+                <ul class="nav_link">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            width="1rem"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                        <input type="search" name="search" id="search" placeholder="Search">
+                    </li>
+                    <li><a href="#" class="bell">
+                            <i class="fa fa-bell"></i>
+                            <span></span>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="user_img_container">
+                                <img src="/assets/7309681.jpg" alt="user_avatar">
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main_page">
+        <section id="main_card" class="scrollable_content">
+            <div class="cards">
+                <a href="singleartist.html" class="card">
+                    <img src="/assets/18nov_8.jpg" alt="card">
+                </a>
+                <div class="card">
+                    <img src="/assets/18nov_8.jpg" alt="card">
+                </div>
+                <div class="card">
+                    <img src="/assets/18nov_8.jpg" alt="card">
+                </div>
+            </div>
+            <div id="latest_release_section">
+                <h4 class="section_heading">Latest Release</h4>
+                <div id="latest_release">
+                    <div class="latest_release_card">
+                        <img src="/assets/4480691.jpg" alt="release_card_image">
+                        <div class="details">
+                            <h5 class="heading">Confidence</h5>
+                            <p class="bg-gray">Bard Pant</p>
+                        </div>
+                        <div class="space"></div>
+                        <div class="menu">
+                            <a href="#" class="button">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                                <span class="third"></span>
+                            </a>
+                            <span class="bg-gray">4.44</span>
+                        </div>
+                    </div>
+                    <div class="latest_release_card">
+                        <a href="#player_bar">
+                            <img src="/assets/4480691.jpg" alt="release_card_image">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="details">
+                            <h5 class="heading">Confidence</h5>
+                            <p class="bg-gray">Bard Pant</p>
+                        </div>
+                        <div class="space"></div>
+                        <div class="menu">
+                            <a href="#" class="button">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                                <span class="third"></span>
+                            </a>
+                            <span class="bg-gray">4.44</span>
+                        </div>
+                    </div>
+                    <div class="latest_release_card">
+                        <img src="/assets/4480691.jpg" alt="release_card_image">
+                        <div class="details">
+                            <h5 class="heading">Confidence</h5>
+                            <p class="bg-gray">Bard Pant</p>
+                        </div>
+                        <div class="space"></div>
+                        <div class="menu">
+                            <a href="#" class="button">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                                <span class="third"></span>
+                            </a>
+                            <span class="bg-gray">4.44</span>
+                        </div>
+                    </div>
+                    <div class="latest_release_card">
+                        <img src="/assets/4480691.jpg" alt="release_card_image">
+                        <div class="details">
+                            <h5 class="heading">Confidence</h5>
+                            <p class="bg-gray">Bard Pant</p>
+                        </div>
+                        <div class="space"></div>
+                        <div class="menu">
+                            <a href="#" class="button">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                                <span class="third"></span>
+                            </a>
+                            <span class="bg-gray">4.44</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Popular artist section -->
+            <div id="popular_artist_section">
+                <h4 class="section_heading">Popular Atists</h4>
+                <div id="popular_artists">
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                    <div class="popular_artist_card">
+                        <img src="/assets/5442217.jpg" alt="popular artist image">
+                        <p class="bg-gray">Ed Sereen</p>
+                    </div>
+                </div>
+            </div>
+            <div id="station_section">
+                <div class="station_icon">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            width="2rem"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M494.8 47c12.7-3.7 20-17.1 16.3-29.8S494-2.8 481.2 1L51.7 126.9c-9.4 2.7-17.9 7.3-25.1 13.2C10.5 151.7 0 170.6 0 192v4V304 448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H218.5L494.8 47zM368 240a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM80 256c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H96c-8.8 0-16-7.2-16-16zM64 320c0-8.8 7.2-16 16-16H208c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm16 64c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H96c-8.8 0-16-7.2-16-16z" />
+                        </svg>
+                        <p>Stations</p>
+                    </div>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+                <div class="station_card">
+                    <img src="/assets/06december_10.jpg" alt="station_card_image" width="20rem">
+                    <p class="station_name">Radio</p>
+                </div>
+            </div>
+
+            <!-- Genre section -->
+
+            <div id="genre_section">
+                <div class="genre_card">
+                    <img src="/assets/17805765_5905793.jpg" alt="genre_card_image">
+                    <p>Electronics</p>
+                </div>
+                <div class="genre_card">
+                    <img src="/assets/17805765_5905793.jpg" alt="genre_card_image">
+                    <p>Electronics</p>
+                </div>
+                <div class="genre_card">
+                    <img src="/assets/17805765_5905793.jpg" alt="genre_card_image">
+                    <p>Electronics</p>
+                </div>
+            </div>
+
+            <!-- Englis latest section -->
+            <div id="english_latest_section">
+                <h4 class="section_heading">English Latest</h4>
+                <div id="english_latest">
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="english_latest_section">
+                <h4 class="section_heading">Hindi Latest</h4>
+                <div id="english_latest">
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                    <div class="english_card">
+                        <img src="/assets/5442217.jpg" alt="english_card_image">
+                        <div class="english_card_detail">
+                            <h5>English song</h5>
+                            <p class="bg-gray">Brad pit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="queue_card_list" class="scrollable_content">
+            <div class="queue_heading">
+                <h4 class="heading">Queue</h4>
+                <p class="bg-gray">Queue <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            width="1rem"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg></span> </p>
+            </div>
+            <div class="queue_list">
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="queue_card">
+                    <span class="bg-gray">01</span>
+                    <img src="/assets/19nov_2.jpg" alt="card_image">
+                    <div class="card_detail">
+                        <h5 class="heading">Confidence</h5>
+                        <p class="bg-gray">Bard Pant</p>
+                    </div>
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div id="player_bar">
+
+        <div class="song_card">
+            <img src="/assets/18nov_8.jpg" alt="player_bar_image">
+            <div class="song_detail">
+                <h5>Confidence</h5>
+                <p class="bg-gray">Brad pit</p>
+            </div>
+            <div class="space"></div>
+            <div class="icon">
+                <i class="fa fa-ban"></i>
+                <i class="fa fa-heart"></i>
+            </div>
+
+        </div>
+        <div class="player_menu">
+            <div class="icons">
+                <i class="fa fa-repeat"></i>
+                <i class="fa fa-backward"></i>
+                <i class="fa fa-play center_icon"></i>
+                <i class="fa fa-forward"></i>
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="player_bar_level">
+                <span class="bg-gray">1:33</span>
+                <div class="bar">
+                    <div class="level">
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <span class="bg-gray">5:33</span>
+            </div>
+
+        </div>
+        <div class="player_button">
+            <i class="fa fa-forward"></i>
+            <i class="fa fa-forward"></i>
+            <i class="fa fa-forward"></i>
+            <div class="volume_bar">
+                <div class="level">
+                    <span class="circle"></span>
+                </div>
+            </div>
+            <i class="fa fa-forward"></i>
+        </div>
+
+    </div>
+</body>
+
+</html>
